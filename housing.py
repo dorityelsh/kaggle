@@ -8,5 +8,5 @@ warnings.filterwarnings('ignore')
 import numpy as np
 import pandas as pd
 print("Numpy and Pandas imported")
-print
+print ("")
 # --- IGNORE ---
