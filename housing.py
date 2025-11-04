@@ -10,5 +10,7 @@ import pandas as pd
 
 # Data Visualisation
 
-import matplotlib as plt  
+import matplotlib.pyplot as plt  
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 # import seaborn as sns
