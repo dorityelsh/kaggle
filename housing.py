@@ -11,6 +11,14 @@ import pandas as pd
 # Data Visualisation
 
 import matplotlib.pyplot as plt  
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-# import seaborn as sns
+import seaborn as sns
+
+housing = pd.DataFrame(pd.read_csv("/Users/idan/Documents/Housing.csv"))
+
+# Data Inspection
+print (housing.head())
+print(housing.shape)
+print (housing.info())
+print (housing.describe())
+
+print(housing.isnull().sum()*100/housing.shape[0])
